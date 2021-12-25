@@ -1,0 +1,27 @@
+int func(v, d, p0, p1) {
+    next = input()
+    tmp = (v % 26) + p0;
+    v22 = v / d;
+    if (next == tmp) {
+        return v22;
+    }
+    return (v22 * 26) + next + p1
+}
+
+bool main() {
+    v16 = input() + 7
+    v35 = func(v16, 1, 12, 4)
+    v53 = func(v35, 1, 11, 8)
+    v71 = func(v53, 26, -4, 1)
+    v89 = func(v71, 1, 10, 5)
+    v107 = func(v89, 1, 10, 14)
+    v125 = func(v107, 1, 15, 12)
+    v143 = func(v125, 26, -9, 10)
+    v161 = func(v143, 26, -9, 5)
+    v179 = func(v161, 1, 12, 7)
+    v197 = func(v179, 26, -15, 6)
+    v215 = func(v197, 26, -7, 8)
+    v233 = func(v215, 26, -10, 4)
+    vout = func(v233, 26, 0, 6)
+    return vout == 0
+}
